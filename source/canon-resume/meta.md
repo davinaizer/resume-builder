@@ -1,7 +1,7 @@
 ---
 createdAt: 2026-05-31
-updatedAt: 2026-08-17
-name: Davi Naizer Santos
+updatedAt: 2026-09-21
+name: Davi Naizer
 title: Senior Frontend & Product Engineer
 tagline: React • TypeScript • Frontend Architecture • Developer Tooling
 contact_lines:
