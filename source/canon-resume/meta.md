@@ -5,8 +5,8 @@ name: Davi Naizer Santos
 title: Senior Frontend & Product Engineer
 tagline: React • TypeScript • Frontend Architecture • Developer Tooling
 contact_lines:
-  - Hove, United Kingdom | davi.naizer@gmail.com | linkedin.com/in/davi-naizer
-  - English (C1), Portuguese
+  - Hove, United Kingdom
+  - davi.naizer@gmail.com | linkedin.com/in/davi-naizer | davi-naizer.pages.dev
 sections:
   - summary
   - core_skills
