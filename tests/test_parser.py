@@ -188,7 +188,7 @@ class ResumeParserTests(unittest.TestCase):
 
     def test_parses_split_resume_source(self) -> None:
         content = parse_resume_source(RESUME_SOURCE)
-        self.assertEqual(content.meta.name, "Davi Naizer Santos")
+        self.assertEqual(content.meta.name, "Davi Naizer")
         self.assertEqual(
             {section.value for section in content.present_sections},
             {"summary", "core_skills", "professional_experience", "education"},

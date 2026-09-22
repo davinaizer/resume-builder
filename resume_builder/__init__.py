@@ -1,1 +1,1 @@
-"""Resume builder package."""
+"""The resume-builder package."""

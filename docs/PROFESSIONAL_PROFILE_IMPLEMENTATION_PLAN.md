@@ -11,21 +11,21 @@ status: proposed
 Define a cross-project plan for representing professional history consistently across:
 
 - Personal Knowledge Model (PKM);
-- Markdown Resume Builder;
+- resume-builder;
 - Professional Site.
 
 This plan responds to requirements that do not fit a flat employer/job model, including grouped employment, promotions, acquisitions, projects, career breaks, optional locations, and role-specific achievements and technologies.
 
 ## Architectural decision
 
-PKM is the long-term source of truth for professional facts, relationships, and evidence. The resume builder and Professional Site are presentation consumers; they must not independently own duplicated career-history facts.
+PKM is the long-term source of truth for professional facts, relationships, and evidence. The resume-builder and Professional Site are presentation consumers; they must not independently own duplicated career-history facts.
 
 The integration boundary is a versioned, public **professional profile projection**.
 
 ```text
 PKM canonical entities and evidence
   → professional-profile projection
-    → Resume Builder
+    → resume-builder
       → DOCX and Markdown CV outputs
     → Professional Site
       → public website output
@@ -35,7 +35,7 @@ The projection is deliberately separate from PKM's internal entity representatio
 
 ## Ownership boundaries
 
-| Area | PKM | Professional profile projection | Resume Builder | Professional Site |
+| Area | PKM | Professional profile projection | resume-builder | Professional Site |
 | --- | --- | --- | --- | --- |
 | Professional facts and evidence | Owns | Selects public facts | Consumes | Consumes |
 | Organisations, roles, transitions | Owns | Resolves for public timeline | Consumes | Consumes |
@@ -173,7 +173,7 @@ Answer:
 
 ### Phase 1 — Define professional-profile v1
 
-**Owner:** PKM, reviewed by the Resume Builder and Professional Site.
+**Owner:** PKM, reviewed by the resume-builder and Professional Site.
 
 Create:
 
@@ -195,11 +195,11 @@ Keep v1 limited to demonstrated requirements. Do not expose internal evidence, c
 
 ### Phase 2 — Validate the contract against both outputs
 
-**Owners:** Resume Builder and Professional Site.
+**Owners:** resume-builder and Professional Site.
 
 Use the v1 fixture before implementing the PKM exporter.
 
-#### Resume Builder validation
+#### resume-builder validation
 
 Validate that the fixture supports:
 
@@ -251,9 +251,9 @@ Maintain public inclusion, display grouping, and ordering as an explicit PKM pro
 
 **Deliverable:** a reproducible command generating a validated `professional-profile.v1.json` artifact according to PKM's established output conventions.
 
-### Phase 4 — Refactor Markdown Resume Builder
+### Phase 4 — Refactor resume-builder
 
-**Owner:** Markdown Resume Builder.
+**Owner:** resume-builder.
 
 #### 4.1 Add a typed projection importer
 

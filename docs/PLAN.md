@@ -22,7 +22,7 @@ This plan follows the project-structure guidance from:
 ## Final architecture
 
 ```text
-markdown-resume-builder/
+resume-builder/
   AGENTS.md
   README.md
   pyproject.toml

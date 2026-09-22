@@ -4,7 +4,7 @@ title: Core Skills
 
 ## **Frontend Engineering**
 
-React • TypeScript • Frontend Architecture • State Management
+React • TypeScript • JavaScript • Frontend Architecture • Component Systems • State Management
 
 ## **Product Engineering**
 
@@ -12,11 +12,11 @@ Product Development • Technical Discovery • API Integration • User Workflo
 
 ## **Developer Experience**
 
-Developer Tooling • Workflow Automation • CI/CD • Engineering Documentation • Code Quality
+Developer Tooling • Workflow Automation • CI/CD & Release Automation • Engineering Documentation • Code Quality
 
 ## **Engineering Practices**
 
-Testing • Maintainable Software • Technical Debt Reduction • Engineering Standards • Performance Optimisation
+Testing • Maintainable Software • Technical Debt Reduction • Engineering Standards • Technical Migrations
 
 ## **Technical Leadership**
 

@@ -50,9 +50,9 @@ class ResumeRendererTests(unittest.TestCase):
             reloaded = load_docx_document(str(output))
 
         self.assertEqual(stderr.getvalue(), "")
-        self.assertEqual(document.core_properties.title, "Davi Naizer Santos Resume")
+        self.assertEqual(document.core_properties.title, "Davi Naizer Resume")
         self.assertEqual(document.core_properties.subject, "Resume")
-        self.assertEqual(document.core_properties.author, "Davi Naizer Santos")
+        self.assertEqual(document.core_properties.author, "Davi Naizer")
         rendered_text = [paragraph.text for paragraph in reloaded.paragraphs]
         expected_experience_text = [
             "Gamesys → Bally's Interactive | London, UK\t03/2019",
@@ -452,7 +452,7 @@ Description.
 
             markdown = build_markdown_from_source(source)
 
-        self.assertIn("# Davi Naizer Santos", markdown)
+        self.assertIn("# Davi Naizer", markdown)
         self.assertIn("**Senior Frontend & Product Engineer**", markdown)
         self.assertIn("# Professional Profile", markdown)
         self.assertIn("# Selected Work", markdown)

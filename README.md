@@ -1,4 +1,4 @@
-# Markdown Resume Builder
+# resume-builder
 
 Build a polished resume DOCX or a single combined Markdown file from section-based Markdown files with YAML frontmatter.
 

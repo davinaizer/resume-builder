@@ -32,11 +32,10 @@ Took a planned break from full-time employment after leaving The Signal Group. D
 
 Worked on Signal Ocean, a maritime intelligence platform used by brokers, operators and analysts to monitor global shipping activity. As part of a cross-functional product team, I worked on the Vessel List area within a large React and TypeScript monorepo. One recurring challenge was that creating reusable Vessel List templates required support requests and manual engineering work. We redesigned that workflow into a self-service experience that allowed company administrators to create and manage templates directly.
 
-- Developed the frontend implementation of the Template Admin experience, taking the feature through implementation, testing, fixes and production release.
-- Implemented role-based template management for a multi-company SaaS platform, separating administrator management capabilities from end-user template consumption.
-- Built data-intensive configuration workflows using AG Grid, including role-based editing, validation, read-only and deletion states, and reusable editing behaviours.
-- Worked closely with backend engineers on metadata-driven APIs and shared application state to support reusable template configuration across multiple dashboards.
-- Developed React and TypeScript features across the Vessel List area and shared UI component library.
+- Developed the frontend implementation of the Template Admin experience, taking the feature through implementation, testing, fixes and production release, including permission-aware creation, editing, validation and deletion flows integrated with frontend state and metadata-driven APIs.
+- Built data-intensive Vessels List configuration workflows using AG Grid, including role-based editing, validation, read-only and deletion states, and reusable editing behaviours.
+- Maintained shared UI components across dashboards, forms and administration surfaces, including migrations away from deprecated components.
+- Maintained focused tests and snapshots and addressed type, lint, SonarLint and refactoring issues during frontend feature development.
 - Onboarded a frontend engineer to the monorepo, Vessel List architecture and Azure-based development environment.
 
 **Tech:** React • TypeScript • MobX • OpenLayers • AG Grid • C# • .NET • Azure DevOps • REST APIs
@@ -46,7 +45,7 @@ Worked on Signal Ocean, a maritime intelligence platform used by brokers, operat
 ## **Gamesys → Bally's Interactive | London, UK | 03/2019 – 11/2023**
 <!-- experience: employment -->
 
-Joined Gamesys as a Frontend Developer and progressed to Senior Frontend Engineer and then Frontend Tech Lead, remaining with the business through its 2021 acquisition by Bally's Corporation. Over time, my work expanded from customer-facing development into frontend architecture, developer tooling, workflow automation and technical direction.
+Joined Gamesys as a Frontend Developer and progressed to Senior Frontend Engineer and then Frontend Tech Lead, remaining with the business through its 2021 acquisition by Bally's Corporation. Over time, my work expanded from customer-facing development into maintaining a configuration-driven promotional UI framework and the authoring, preview, deployment and engineering tooling around it, alongside frontend architecture and technical direction.
 
 ### **Frontend Tech Lead | Bally's Interactive | 11/2022 – 11/2023**
 
@@ -65,8 +64,8 @@ Provided technical direction across frontend initiatives focused on code quality
 Worked across customer-facing products and internal engineering tooling, increasingly focusing on developer experience, workflow automation and frontend platform improvements.
 
 - Built a Node.js tool around the Jira REST API that reduced a promotional content workflow from days to minutes.
-- Developed reusable tooling around the GitHub Enterprise REST API that removed the need to clone repositories for deployment-related tasks.
-- Built internal tooling supporting Offer Builder, promotional content generation, deployment and day-to-day engineering workflows.
+- Created a Node.js CLI that generated version-pinned promotional UI from templates and automated pull-request-based delivery; migrated it to TypeScript and introduced supporting CI and release practices.
+- Built a React preview application for validating generated promotional UI against real configuration before release, and maintained shared configuration infrastructure used by multiple delivery tools.
 - Created onboarding guides, architecture documentation and dependency maps that helped engineers understand large projects more quickly.
 - Supported the team through mentoring, code reviews and production troubleshooting.
 
@@ -77,8 +76,8 @@ Worked across customer-facing products and internal engineering tooling, increas
 Joined the Promotions team building customer-facing promotional experiences before expanding into frontend architecture, developer tooling and cross-team enablement.
 
 - Led the technical improvement initiative for Landing Pages, defining the proposed frontend architecture, documenting the roadmap and presenting the approach to engineering, QA, design and business stakeholders.
+- Contributed to a configuration-driven promotional UI framework and reusable components used across multiple consumer brands, helping non-engineers compose and deliver promotional experiences without changing application code.
 - Built reusable frontend components and styling foundations to improve consistency across promotional interfaces.
-- Developed GitHub API-based deployment tooling that simplified deployment workflows and reduced reliance on repository cloning.
 - Mentored developers, designers and stakeholders through code reviews, frontend debugging, Git support and technical documentation.
 - Contributed to customer-facing React applications while helping improve internal engineering tooling and workflows.
 

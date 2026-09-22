@@ -12,7 +12,7 @@ Completed 2026-08-17. The Markdown adapter, typed experience model, nested DOCX 
 
 ## Purpose
 
-Implement the Professional Experience structure described in [`reports/resume-structure-change-report.md`](reports/resume-structure-change-report.md) with the smallest focused change to the current Markdown Resume Builder.
+Implement the Professional Experience structure described in [`reports/resume-structure-change-report.md`](reports/resume-structure-change-report.md) with the smallest focused change to the current resume-builder.
 
 This plan supports grouped employment, nested roles, optional locations, projects, and career breaks while preserving the existing single-file Markdown source and avoiding a premature migration to the planned PKM-backed professional-profile projection.
 

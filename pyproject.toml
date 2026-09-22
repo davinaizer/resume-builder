@@ -1,5 +1,5 @@
 [project]
-name = "markdown-resume-builder"
+name = "resume-builder"
 version = "1.2.0"
 description = "Build a resume DOCX from Markdown"
 readme = "README.md"
