@@ -240,7 +240,7 @@ Update only `source/canon-resume/sections/professional-experience.md` by adding 
 | Planned Career Break | `career_break` |
 | Senior Frontend Software Engineer / The Signal Group | `employment` |
 | Gamesys → Bally's Interactive | `employment` |
-| Co-founder & Technical Lead / UNBOX Learning Experience | `employment` |
+| Co-founder & Technical Lead / UNBOX Design Studio | `employment` |
 
 Do not rewrite the current experience copy as part of the structural implementation. The report's intended Alfred, career-break, Gamesys/Bally's, and UNBOX copy changes are already present in canonical source.
 

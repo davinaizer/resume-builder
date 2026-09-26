@@ -57,7 +57,7 @@ Preserve location where it adds useful professional context:
 ```text
 The Signal Group | London, UK
 Gamesys → Bally's Interactive | London, UK
-UNBOX Learning Experience | Brazil
+UNBOX Design Studio | Brazil
 ```
 
 Do not require location for every experience.
