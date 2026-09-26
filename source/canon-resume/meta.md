@@ -1,6 +1,6 @@
 ---
 createdAt: 2026-05-31
-updatedAt: 2026-09-21
+updatedAt: 2026-09-26
 name: Davi Naizer
 title: Senior Frontend & Product Engineer
 tagline: React • TypeScript • Frontend Architecture • Developer Tooling

@@ -88,7 +88,7 @@ Joined the Promotions team building customer-facing promotional experiences befo
 ## **Co-founder & Frontend Developer | UNBOX Design Studio | Brazil | 10/2009 – 03/2017**
 <!-- experience: employment -->
 
-Co-founded UNBOX Design Studio, a technology and design studio delivering digital learning platforms, Learning Management Systems (LMS), and interactive educational products for Fortune 500 and global enterprise clients, including Volvo Brasil, Grupo Boticário, MetLife, HSBC, and Electrolux. Worked across product discovery, solution design, technical leadership, frontend development, and client delivery as part of a founding team comprising a computer engineer, a UX designer, and a graphic designer.
+Co-founded a technology and design studio delivering digital learning platforms, Learning Management Systems (LMS), and interactive educational products for Fortune 500 and global enterprise clients, including Volvo Brasil, Grupo Boticário, MetLife, HSBC, and Electrolux. Worked across product discovery, solution design, technical leadership, frontend development, and client delivery as part of a founding team comprising a computer engineer, a UX designer, and a graphic designer.
 
 - Worked directly with clients, designers and instructional specialists to translate business and learning requirements into practical software solutions.
 - Led technical delivery of client projects, coordinating a team of up to five developers while remaining hands-on with architecture, frontend development and implementation.
